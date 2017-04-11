@@ -1,0 +1,297 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin: 0px;
+	font-family:  sans-serif;
+}
+
+#header {
+	width: 100%;
+	height: 393px;
+	background-color: #fff;
+}
+
+#headerimg {
+	width: 581px;
+	height: 253px;
+	margin: 40px auto 52px auto;
+	background-image: url(logo-color-new.png);
+}
+
+#headertext {
+	width: auto;
+	    margin: 47px auto 45px auto;
+    color: #fdd852;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+#nav {
+	height: 34px;
+	padding-top: 10px;
+	background-color: #4ac6ea;
+	color: #fff;
+	text-align: center;
+	
+	font-weight: 500;
+	font-size: 20px;
+}
+
+.featuredfilters a:link{ color:#fff; text-decoration: none;} 
+.featuredfilters a:visited{ color:#fff;  text-decoration: none;} 
+.featuredfilters a:hover{ color:#B1B1B1 ; text-decoration: none; } 
+.featuredfilters a:active{ color:#fff; text-decoration: none;}
+
+.more a:link{ color: #797878; text-decoration: none;} 
+.more a:visited{ color: #797878; text-decoration: none;} 
+.more a:hover{ color: #A7A3A4; text-decoration: none; } 
+.more a:active{ color: #797878;text-decoration: none;}
+
+#nav a:link{ color:#fff; text-decoration: none;} 
+#nav a:visited{ color:#fff;  text-decoration: none;} 
+#nav a:hover{ color:#B2E3FF; text-decoration: none; } 
+#nav a:active{ color:#fff; text-decoration: none;}
+
+
+
+#custombar {
+	height: 34px;
+	padding-top: 10px;
+	background-color: #e6e6e6 ;
+	color: #5F5F5F ;
+	text-align: center;
+	width: 100%;
+	font-weight: 500;
+	font-size: 20px;
+}
+
+#custombar a:link{ color:#949494; text-decoration: none;} 
+#custombar a:visited{ color:#949494 ;  text-decoration: none;} 
+#custombar a:hover{ color: #777777 ; text-decoration: none; } 
+#custombar a:active{ color:#949494 ; text-decoration: none;}
+
+
+
+
+#contactus {
+	width: 100%;
+	height: auto;
+	min-height: 300px;
+	
+}
+
+#contactform {
+	width: 342px;
+    height: 426px;
+
+	margin: 20px auto 10px auto;
+}
+
+
+
+
+#paytext {
+	text-transform: none;
+	font-size: 15px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+
+#weddingfilters {
+	width: 100%;
+	height: auto;
+	background-image: url('weddingsection-bg.jpg');
+	background-repeat: repeat-x;
+	min-height: 300px;
+	
+}
+
+#birthdayfilters {
+	width: 100%;
+	height: auto;
+	background-image: url('birthdaysection-bg.jpg');
+	background-repeat: repeat-x;
+	min-height: 300px;
+	
+}
+
+#partyfilters {
+	width: 100%;
+	height: auto;
+	background-image: url('weddingsection-bg.jpg');
+	background-repeat: repeat-x;
+	min-height: 300px;
+	
+}
+
+#graduationfilters {
+	width: 100%;
+	height: auto;
+	background-image: url('birthdaysection-bg.jpg');
+	background-repeat: repeat-x;
+	min-height: 300px;
+	
+}
+
+.fcontent {
+	width: 95%;
+	height: auto;
+	max-width: 1136px;
+	margin: 0 auto;
+	color: #989898;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 19px;
+    padding-bottom: 40px;
+    letter-spacing: 1px;
+}
+
+.details {
+	    text-align: center;
+    width: 240px;
+	float: right;
+	margin-top: 216px;
+}
+
+.sectiontitle {
+	display:inline-block;
+	width: 100%;
+	text-align: center;
+	
+	margin-top: 45px;
+	margin-bottom: 22px;
+	
+}
+
+.sectionmessage {
+	display:inline-block;
+	left: 0px;
+	margin-top: 45px;
+	margin-bottom: 22px;
+	float: right;
+}
+
+.featuredfilters {
+	width: 100%;
+	height: 510px;
+	margin-top: 17px;
+	overflow: hidden;
+}
+
+.allfilters {
+	width: 100%;
+	height: auto;
+	margin-top: 17px;
+	overflow: hidden;
+}
+
+.ftype {
+	color:  #fff;
+	width: 250px;
+	text-align: center;
+	font-size: 15px;margin-top: 5px;
+	
+}
+
+.shadow {
+	 text-shadow: 1px 2px #94c1d0;
+}
+
+@media screen and (max-width: 1212px) {
+    .fcontent {
+		max-width: 855px;
+	}
+}
+
+
+
+.ffitem {
+	width: 250px;
+	height: 510px;
+	float: left;
+	margin: 5px 17px 20px 17px;
+}
+
+
+
+.itemdetail {
+	width: 308px;
+	height: 600px;
+	float: left;
+	margin: 0px 17px 20px 17px;
+	background-image: url('iphonebase.png');
+}
+
+.itemdetail img {
+	    margin: 77px 0px 5px 28px;
+}
+
+
+#footer {
+	width: 100%;
+	height: auto;
+	min-height: 80px;
+	padding-top: 20px;
+	color: #ABABAB;
+	text-align: center;
+}
+
+.downloadbtn {
+	background-color: #3eadce;
+	width: 113px;
+	height: 24px;
+	border-radius: 20px;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 12px;
+	line-height: 24px;
+	letter-spacing: 1px;
+	margin: 10px auto 10px auto;
+}
+
+
+.itemdownloadbtn {
+	background-color: #3eadce;
+	width: 113px;
+	height: 24px;
+	border-radius: 20px;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 12px;
+	line-height: 24px;
+	letter-spacing: 1px;
+	margin: 10px auto 10px auto;
+	border: none;
+}
+
+.more {
+	background-color: #fff;
+    width: 160px;
+    height: 42px;
+    border-radius: 24px;
+    color: #797878;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 13px;
+    line-height: 44px;
+    letter-spacing: 1px;
+    margin: 36px auto 4px auto;
+}
+
+
+.navbar-fixed {
+  position: fixed;
+  top: -($nav-height);
+}
+
+
+
+
+
